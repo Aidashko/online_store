@@ -1,0 +1,30 @@
+2024-06-24T19:12:27.196+06:00  INFO 4636 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24T19:12:27.203+06:00  INFO 4636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-24T19:12:27.216+06:00  INFO 4636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-24T19:12:36.085+06:00  INFO 31564 --- [main] c.e.o.OnlineStore1Application            : Starting OnlineStore1Application using Java 21 with PID 31564 (C:\Users\user\OneDrive\Рабочий стол\online_store_1\target\classes started by user in C:\Users\user\OneDrive\Рабочий стол\online_store_1)
+2024-06-24T19:12:36.090+06:00  INFO 31564 --- [main] c.e.o.OnlineStore1Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-24T19:12:37.918+06:00  INFO 31564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24T19:12:38.073+06:00  INFO 31564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 8 JPA repository interfaces.
+2024-06-24T19:12:38.957+06:00  INFO 31564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-24T19:12:38.978+06:00  INFO 31564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24T19:12:38.979+06:00  INFO 31564 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24T19:12:39.108+06:00  INFO 31564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24T19:12:39.109+06:00  INFO 31564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2904 ms
+2024-06-24T19:12:39.478+06:00  INFO 31564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24T19:12:39.731+06:00  INFO 31564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24T19:12:39.809+06:00  INFO 31564 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-24T19:12:40.537+06:00  INFO 31564 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24T19:12:40.592+06:00  INFO 31564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24T19:12:40.905+06:00  INFO 31564 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65503a26
+2024-06-24T19:12:40.909+06:00  INFO 31564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24T19:12:43.697+06:00  INFO 31564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24T19:12:43.944+06:00  INFO 31564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24T19:12:46.310+06:00  WARN 31564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24T19:12:46.416+06:00  INFO 31564 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-24T19:12:46.418+06:00  WARN 31564 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-24T19:12:47.335+06:00  INFO 31564 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b708c16, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2700f556, org.springframework.security.web.context.SecurityContextHolderFilter@8947a4b, org.springframework.security.web.header.HeaderWriterFilter@70c2a046, org.springframework.security.web.authentication.logout.LogoutFilter@6894d28d, com.example.online_store_1.configuration.TokenFilter@6238d5e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31d64d0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50c462b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6def1699, org.springframework.security.web.session.SessionManagementFilter@63bb52ea, org.springframework.security.web.access.ExceptionTranslationFilter@1f40bb80, org.springframework.security.web.access.intercept.AuthorizationFilter@1ffe7c42]
+2024-06-24T19:12:49.488+06:00  INFO 31564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24T19:12:49.532+06:00  INFO 31564 --- [main] c.e.o.OnlineStore1Application            : Started OnlineStore1Application in 14.479 seconds (process running for 16.153)
+2024-06-24T19:12:54.776+06:00  INFO 31564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24T19:12:54.778+06:00  INFO 31564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24T19:12:54.782+06:00  INFO 31564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms

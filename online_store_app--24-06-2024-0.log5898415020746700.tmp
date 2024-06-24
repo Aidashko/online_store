@@ -1,0 +1,34 @@
+2024-06-24T19:23:25.910+06:00  INFO 27924 --- [http-nio-8080-exec-1] c.e.o.service.impl.AuthServiceImpl       : Attempt to activate account with email 'toligo6743@dalebig.com'
+2024-06-24T19:23:25.925+06:00  WARN 27924 --- [http-nio-8080-exec-1] c.e.o.service.impl.AuthServiceImpl       : Invalid activation code '2865' for email 'toligo6743@dalebig.com'
+2024-06-24T19:26:04.010+06:00  INFO 27924 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24T19:26:04.018+06:00  INFO 27924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-24T19:26:04.042+06:00  INFO 27924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-24T19:27:18.909+06:00  INFO 7048 --- [main] c.e.o.OnlineStore1Application            : Starting OnlineStore1Application using Java 21 with PID 7048 (C:\Users\user\OneDrive\Рабочий стол\online_store_1\target\classes started by user in C:\Users\user\OneDrive\Рабочий стол\online_store_1)
+2024-06-24T19:27:18.913+06:00  INFO 7048 --- [main] c.e.o.OnlineStore1Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-24T19:27:20.431+06:00  INFO 7048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24T19:27:20.589+06:00  INFO 7048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 8 JPA repository interfaces.
+2024-06-24T19:27:21.337+06:00  INFO 7048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-24T19:27:21.356+06:00  INFO 7048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24T19:27:21.356+06:00  INFO 7048 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24T19:27:21.442+06:00  INFO 7048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24T19:27:21.442+06:00  INFO 7048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2444 ms
+2024-06-24T19:27:21.702+06:00  INFO 7048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24T19:27:21.785+06:00  INFO 7048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24T19:27:21.829+06:00  INFO 7048 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-24T19:27:22.250+06:00  INFO 7048 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24T19:27:22.284+06:00  INFO 7048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24T19:27:22.480+06:00  INFO 7048 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37c87fcc
+2024-06-24T19:27:22.482+06:00  INFO 7048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24T19:27:24.394+06:00  INFO 7048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24T19:27:24.653+06:00  INFO 7048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24T19:27:25.481+06:00  WARN 7048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24T19:27:25.535+06:00  INFO 7048 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-24T19:27:25.537+06:00  WARN 7048 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-24T19:27:25.975+06:00  INFO 7048 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7893b8c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45398bb0, org.springframework.security.web.context.SecurityContextHolderFilter@3ce71bbb, org.springframework.security.web.header.HeaderWriterFilter@6ceeb592, org.springframework.security.web.authentication.logout.LogoutFilter@6a0d47e8, com.example.online_store_1.configuration.TokenFilter@1a9ec80e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f1eff72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@308f18c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35ffe3ac, org.springframework.security.web.session.SessionManagementFilter@19487d13, org.springframework.security.web.access.ExceptionTranslationFilter@664c0466, org.springframework.security.web.access.intercept.AuthorizationFilter@77a6aa9f]
+2024-06-24T19:27:26.480+06:00  INFO 7048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24T19:27:26.494+06:00  INFO 7048 --- [main] c.e.o.OnlineStore1Application            : Started OnlineStore1Application in 8.391 seconds (process running for 9.593)
+2024-06-24T19:27:27.161+06:00  INFO 7048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24T19:27:27.162+06:00  INFO 7048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24T19:27:27.163+06:00  INFO 7048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-24T19:27:27.388+06:00  INFO 7048 --- [http-nio-8080-exec-2] c.e.o.service.impl.AuthServiceImpl       : Attempt to activate account with email 'toligo6743@dalebig.com'
+2024-06-24T19:27:27.600+06:00  WARN 7048 --- [http-nio-8080-exec-2] c.e.o.service.impl.AuthServiceImpl       : Invalid activation code '2865' for email 'toligo6743@dalebig.com'
